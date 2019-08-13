@@ -1,0 +1,164 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEB1505323028E3500231D6A /* Instruments-demo.instrpkg in Sources */ = {isa = PBXBuildFile; fileRef = BEB1505223028E3500231D6A /* Instruments-demo.instrpkg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BEB1504F23028E3500231D6A /* Instruments-demo.instrdst */ = {isa = PBXFileReference; explicitFileType = com.apple.instruments.instrdst; includeInIndex = 0; path = "Instruments-demo.instrdst"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB1505223028E3500231D6A /* Instruments-demo.instrpkg */ = {isa = PBXFileReference; lastKnownFileType = "com.apple.instruments.package-definition"; path = "Instruments-demo.instrpkg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		BEB1504823028E3500231D6A = {
+			isa = PBXGroup;
+			children = (
+				BEB1505123028E3500231D6A /* Instruments-demo */,
+				BEB1505023028E3500231D6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEB1505023028E3500231D6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEB1504F23028E3500231D6A /* Instruments-demo.instrdst */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEB1505123028E3500231D6A /* Instruments-demo */ = {
+			isa = PBXGroup;
+			children = (
+				BEB1505223028E3500231D6A /* Instruments-demo.instrpkg */,
+			);
+			path = "Instruments-demo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEB1504E23028E3500231D6A /* Instruments-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEB1505423028E3500231D6A /* Build configuration list for PBXNativeTarget "Instruments-demo" */;
+			buildPhases = (
+				BEB1504D23028E3500231D6A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Instruments-demo";
+			productName = "Instruments-demo";
+			productReference = BEB1504F23028E3500231D6A /* Instruments-demo.instrdst */;
+			productType = "com.apple.product-type.instruments-package";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEB1504923028E3500231D6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "黄龙山";
+				TargetAttributes = {
+					BEB1504E23028E3500231D6A = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = BEB1504C23028E3500231D6A /* Build configuration list for PBXProject "Instruments-demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BEB1504823028E3500231D6A;
+			productRefGroup = BEB1505023028E3500231D6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEB1504E23028E3500231D6A /* Instruments-demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEB1504D23028E3500231D6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB1505323028E3500231D6A /* Instruments-demo.instrpkg in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BEB1504A23028E3500231D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		BEB1504B23028E3500231D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		BEB1505523028E3500231D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Instruments/Packages";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
+		BEB1505623028E3500231D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Instruments/Packages";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEB1504C23028E3500231D6A /* Build configuration list for PBXProject "Instruments-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEB1504A23028E3500231D6A /* Debug */,
+				BEB1504B23028E3500231D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEB1505423028E3500231D6A /* Build configuration list for PBXNativeTarget "Instruments-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEB1505523028E3500231D6A /* Debug */,
+				BEB1505623028E3500231D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEB1504923028E3500231D6A /* Project object */;
+}
